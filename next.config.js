@@ -5,6 +5,7 @@ module.exports = {
     JWT_SECRET: "hjdfhuiklnlkbfcagdahsakjsdjdqw",
     CLOUDINARY_URL: "https://api.cloudinary.com/v1_1/dev-empty/image/upload",
     STRIPE_SECRET_KEY: "sk_test_2DqyjEwaU0Nq0PpEMVQ3qSAw00zgrbnfPk"
-  }
+  },
+  target: 'serverless'
 };
 // end config
