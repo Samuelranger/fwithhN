@@ -1,6 +1,6 @@
 {
   "name": "shoponix-react",
-  "version": "1.6.0",
+  "version": "17.0.2",
   "description": "Shoponix - MERN Next eCommerce Store",
   "main": "index.js",
   "scripts": {
