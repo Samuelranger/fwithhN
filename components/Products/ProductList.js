@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import ProductPagination from './ProductPagination';
+import ProductPagination from './*ProductPagination';
 
 function ProductList({ products, totalPages }) {
     // console.log(totalPages)

@@ -1,5 +1,5 @@
-import UsersWithPermissions from "../../components/Users/UsersWithPermissions";
-import AdminSidebar from '../../components/_App/AdminSidebar';
+import UsersWithPermissions from "../*../*components/Users/UsersWithPermissions";
+import AdminSidebar from '../*../*components/_App/AdminSidebar';
 
 const Users = ({ user }) => {
     return (

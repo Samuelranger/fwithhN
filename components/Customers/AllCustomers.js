@@ -1,6 +1,6 @@
 import { Header, Table, Icon } from 'semantic-ui-react';
 import Gravatar from 'react-gravatar';
-import formatDate from '../../utils/formatDate';
+import formatDate from '../*../*utils/formatDate';
 
 const AllCustomers = ({customers}) => {
     return(

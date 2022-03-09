@@ -1,6 +1,6 @@
 import { Header, Accordion, Label, Segment, Icon, Button, List, Image } from 'semantic-ui-react';
 import { useRouter } from 'next/router';
-import OrderStatus from './OrderStatus';
+import OrderStatus from './*OrderStatus';
 
 const AllOrders = ({ orders }) => {
     // console.log(orders)

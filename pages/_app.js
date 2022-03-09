@@ -1,14 +1,14 @@
-import '../public/semantic.min.css';
-import '../public/nprogress.css';
-import '../public/styles.css';
-import '../public/responsive.css';
+import '../*public/semantic.min.css';
+import '../*public/nprogress.css';
+import '../*public/styles.css';
+import '../*public/responsive.css';
 import App from "next/app";
 import axios from 'axios';
 import Router from 'next/router';
 import { parseCookies, destroyCookie } from 'nookies';
-import Layout from "../components/_App/Layout";
-import { redirectUser } from '../utils/auth';
-import baseUrl from '../utils/baseUrl';
+import Layout from "../*components/_App/Layout";
+import { redirectUser } from '../*utils/auth';
+import baseUrl from '../*utils/baseUrl';
 
 class MyApp extends App {
     static async getInitialProps({ Component, ctx }){

@@ -3,10 +3,10 @@ import { parseCookies } from 'nookies';
 import axios from 'axios';
 import cookie from 'js-cookie';
 import { Segment } from 'semantic-ui-react';
-import CartItemList from "../components/Cart/CartItemList"
-import CartSummary from "../components/Cart/CartSummary"
-import baseUrl from '../utils/baseUrl';
-import catchErrors from '../utils/catchErrors';
+import CartItemList from "../*components/Cart/CartItemList"
+import CartSummary from "../*components/Cart/CartSummary"
+import baseUrl from '../*utils/baseUrl';
+import catchErrors from '../*utils/catchErrors';
 
 const Cart = ({ products, user }) => {
     // console.log(products)

@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
-import Cart from "../../models/Cart";
-import Order from "../../models/Order";
+import Cart from "../*../*models/Cart";
+import Order from "../*../*models/Order";
 
 export default async (req, res) => {
 	const { email, cartTotal } = req.body;

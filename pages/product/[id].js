@@ -1,9 +1,9 @@
 import axios from 'axios';
-import ProductSummary from '../../components/Product/ProductSummary';
-import ProductAttributes from '../../components/Product/ProductAttributes';
-import baseUrl from '../../utils/baseUrl';
-import ProductDetailsTab from '../../components/Product/ProductDetailsTab';
-import RelatedProducts from '../../components/Product/RelatedProducts';
+import ProductSummary from '../*../*components/Product/ProductSummary';
+import ProductAttributes from '../*../*components/Product/ProductAttributes';
+import baseUrl from '../*../*utils/baseUrl';
+import ProductDetailsTab from '../*../*components/Product/ProductDetailsTab';
+import RelatedProducts from '../*../*components/Product/RelatedProducts';
 
 const Product = ({ product, related, user }) => {
     // console.log(related)

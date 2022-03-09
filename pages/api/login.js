@@ -1,7 +1,7 @@
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
-import connectDb from "../../utils/connectDb";
-import User from "../../models/User";
+import connectDb from "../*../*utils/connectDb";
+import User from "../*../*models/User";
 
 connectDb();
 

@@ -1,8 +1,8 @@
 import { parseCookies } from 'nookies';
 import axios from 'axios';
 import {Container} from 'semantic-ui-react';
-import OrdersHistory from "../components/MyOrdersHistory/OrdersHistory";
-import baseUrl from '../utils/baseUrl';
+import OrdersHistory from "../*components/MyOrdersHistory/OrdersHistory";
+import baseUrl from '../*utils/baseUrl';
 
 const MyOrdersHistory = ({ orders }) => {
     // console.log(orders)

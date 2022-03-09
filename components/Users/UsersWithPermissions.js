@@ -2,8 +2,8 @@ import React from 'react';
 import axios from 'axios';
 import cookie from 'js-cookie';
 import { Header, Table, Icon } from 'semantic-ui-react';
-import baseUrl from '../../utils/baseUrl';
-import AllUsers from './AllUsers';
+import baseUrl from '../*../*utils/baseUrl';
+import AllUsers from './*AllUsers';
 
 const UsersWithPermissions = () => {
     const [users, setUsers] = React.useState([]);

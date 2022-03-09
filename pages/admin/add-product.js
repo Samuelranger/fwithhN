@@ -10,9 +10,9 @@ import {
     Icon,
 } from 'semantic-ui-react';
 import axios from 'axios';
-import baseUrl from '../../utils/baseUrl';
-import catchErrors from '../../utils/catchErrors';
-import AdminSidebar from '../../components/_App/AdminSidebar';
+import baseUrl from '../*../*utils/baseUrl';
+import catchErrors from '../*../*utils/catchErrors';
+import AdminSidebar from '../*../*components/_App/AdminSidebar';
 
 const options = [
     { key: 't-shirt', text: 'T-Shirt', value: 't-shirt' },

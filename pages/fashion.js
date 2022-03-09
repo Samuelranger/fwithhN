@@ -1,10 +1,10 @@
 import React from 'react';
 import axios from 'axios';
-import Banner from '../components/Fashion/Banner';
-import CategoryBanner from '../components/Fashion/CategoryBanner';
-import OfferArea from '../components/Fashion/OfferArea';
-import HotProducts from '../components/Fashion/HotProducts';
-import baseUrl from '../utils/baseUrl';
+import Banner from '../*components/Fashion/Banner';
+import CategoryBanner from '../*components/Fashion/CategoryBanner';
+import OfferArea from '../*components/Fashion/OfferArea';
+import HotProducts from '../*components/Fashion/HotProducts';
+import baseUrl from '../*utils/baseUrl';
 
 const Home = ({ products }) => {
     // console.log(products)

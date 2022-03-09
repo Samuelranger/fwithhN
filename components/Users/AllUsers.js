@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import { Checkbox, Table } from 'semantic-ui-react';
 import axios from 'axios';
-import baseUrl from '../../utils/baseUrl';
-import formatDate from '../../utils/formatDate';
+import baseUrl from '../*../*utils/baseUrl';
+import formatDate from '../*../*utils/formatDate';
 
 const AllUsers = ({user}) => {
     const [admin, setAdmin] = React.useState(user.role === 'admin');

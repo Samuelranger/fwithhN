@@ -1,5 +1,5 @@
-import Order from '../../models/Order';
-import connectDb from '../../utils/connectDb';
+import Order from '../*../*models/Order';
+import connectDb from '../*../*utils/connectDb';
 // Connect DB
 connectDb();
 

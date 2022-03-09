@@ -1,6 +1,6 @@
-import AdminSidebar from "../../components/_App/AdminSidebar";
-import MonthlyRevenue from "../../components/Dashboard/Charts/MonthlyRevenue";
-import ProductTrendsByMonth from "../../components/Dashboard/Charts/ProductTrendsByMonth";
+import AdminSidebar from "../*../*components/_App/AdminSidebar";
+import MonthlyRevenue from "../*../*components/Dashboard/Charts/MonthlyRevenue";
+import ProductTrendsByMonth from "../*../*components/Dashboard/Charts/ProductTrendsByMonth";
 
 const Dashboard = ({user}) => {
     // console.log(user)

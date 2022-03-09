@@ -1,8 +1,8 @@
 import axios from 'axios';
-import baseUrl from '../utils/baseUrl';
-import Banner from "../components/Furniture/Banner"
-import CategoryBanner from "../components/Furniture/CategoryBanner"
-import HotProducts from "../components/Furniture/HotProducts"
+import baseUrl from '../*utils/baseUrl';
+import Banner from "../*components/Furniture/Banner"
+import CategoryBanner from "../*components/Furniture/CategoryBanner"
+import HotProducts from "../*components/Furniture/HotProducts"
 
 const Furniture = ({products}) => {
     return(

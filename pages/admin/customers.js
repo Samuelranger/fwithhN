@@ -1,7 +1,7 @@
 import axios from 'axios';
-import AllCustomers from "../../components/Customers/AllCustomers";
-import AdminSidebar from '../../components/_App/AdminSidebar';
-import baseUrl from '../../utils/baseUrl';
+import AllCustomers from "../*../*components/Customers/AllCustomers";
+import AdminSidebar from '../*../*components/_App/AdminSidebar';
+import baseUrl from '../*../*utils/baseUrl';
 
 const Customers = ({ customers, user }) => {
     // console.log(customers)

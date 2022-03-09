@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import axios from 'axios';
 import { Label, Checkbox, Popup } from 'semantic-ui-react';
-import formatDate from '../../utils/formatDate';
-import baseUrl from '../../utils/baseUrl';
+import formatDate from '../*../*utils/formatDate';
+import baseUrl from '../*../*utils/baseUrl';
 
 const OrderStatus = ({order}) => {
     const [delivered, setDelivered] = React.useState(order.status === 'delivered');

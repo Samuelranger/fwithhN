@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
-import ProductList from '../components/Products/ProductList';
-import baseUrl from '../utils/baseUrl';
+import ProductList from '../*components/Products/ProductList';
+import baseUrl from '../*utils/baseUrl';
 
 const Products = ({ products, totalPages }) => {
     return(

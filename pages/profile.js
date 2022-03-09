@@ -1,4 +1,4 @@
-import ProfileHeader from "../components/Profile/ProfileHeader"
+import ProfileHeader from "../*components/Profile/ProfileHeader"
 
 const Profile = ({ user }) => {
     return (

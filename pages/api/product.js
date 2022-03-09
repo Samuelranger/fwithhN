@@ -1,8 +1,8 @@
 import shortid from 'shortid';
-import Product from '../../models/Product';
-import Cart from '../../models/Cart';
-import Order from '../../models/Order';
-import connectDb from '../../utils/connectDb';
+import Product from '../*../*models/Product';
+import Cart from '../*../*models/Cart';
+import Order from '../*../*models/Order';
+import connectDb from '../*../*utils/connectDb';
 
 connectDb();
 

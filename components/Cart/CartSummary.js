@@ -1,7 +1,7 @@
 import React from 'react';
 import StripeCheckout from 'react-stripe-checkout';
 import { Button, Segment, Divider } from 'semantic-ui-react';
-import calculateCartTotal from '../../utils/calculateCartTotal';
+import calculateCartTotal from '../*../*utils/calculateCartTotal';
 
 const CartSummary = ({ products, handleCheckout, success }) => {
     const [cartAmout, setCartAmaount] = React.useState(0);

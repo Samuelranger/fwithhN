@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Icon, Menu, Segment, Sidebar, Checkbox } from 'semantic-ui-react';
 import { useRouter } from 'next/router';
-import { handleLogout } from '../../utils/auth';
+import { handleLogout } from '../*../*utils/auth';
 
 const AdminSidebar = ({children, user}) => {
     const [visible, setVisible] = useState(true)

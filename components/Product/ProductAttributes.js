@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header, Button, Modal, TransitionablePortal } from 'semantic-ui-react';
 import axios from 'axios';
-import baseUrl from '../../utils/baseUrl';
+import baseUrl from '../*../*utils/baseUrl';
 import Router, { useRouter } from 'next/router';
 
 const ProductAttributes = ({ description, _id, user }) => {

@@ -1,8 +1,8 @@
 import axios from 'axios';
-import Banner from "../components/Index/Banner";
-import CategoryBanner from "../components/Index/CategoryBanner";
-import HotProducts from "../components/Index/HotProducts";
-import baseUrl from '../utils/baseUrl';
+import Banner from "../*components/Index/Banner";
+import CategoryBanner from "../*components/Index/CategoryBanner";
+import HotProducts from "../*components/Index/HotProducts";
+import baseUrl from '../*utils/baseUrl';
 
 const Fashion = ({products}) => {
     return(

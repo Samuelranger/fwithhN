@@ -1,10 +1,10 @@
 import React from 'react';
 import { Button, Form, Icon, Message, Segment } from 'semantic-ui-react';
 import Link from 'next/link';
-import catchErrors from '../../utils/catchErrors';
-import baseUrl from '../../utils/baseUrl';
+import catchErrors from '../*../*utils/catchErrors';
+import baseUrl from '../*../*utils/baseUrl';
 import axios from 'axios';
-import { handleLogin } from '../../utils/auth';
+import { handleLogin } from '../*../*utils/auth';
 
 const INITIAL_USER = {
     email: '',

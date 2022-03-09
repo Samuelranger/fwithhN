@@ -1,6 +1,6 @@
 import { Header, Accordion, Label, Segment, Icon, Button, List, Image, Checkbox, Popup } from 'semantic-ui-react';
 import { useRouter } from 'next/router';
-import formatDate from '../../utils/formatDate';
+import formatDate from '../*../*utils/formatDate';
 
 const OrdersHistory = ({ orders = [] }) => {
     const router  = useRouter();

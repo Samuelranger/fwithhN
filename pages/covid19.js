@@ -1,8 +1,8 @@
 import axios from 'axios';
-import Banner from "../components/Covid19/Banner";
-import baseUrl from '../utils/baseUrl';
-import CategoryBanner from '../components/Covid19/CategoryBanner';
-import HotProducts from '../components/Covid19/HotProducts';
+import Banner from "../*components/Covid19/Banner";
+import baseUrl from '../*utils/baseUrl';
+import CategoryBanner from '../*components/Covid19/CategoryBanner';
+import HotProducts from '../*components/Covid19/HotProducts';
 
 const Covid19 = ({products}) => {
     // console.log(products)
